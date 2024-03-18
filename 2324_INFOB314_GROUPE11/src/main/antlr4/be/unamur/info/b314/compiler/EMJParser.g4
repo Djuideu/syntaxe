@@ -2,7 +2,7 @@ parser grammar EMJParser;
     options { tokenVocab = EMJLexer; }
 
 
-root:instruction ;
+root:ifinstr ;
 
 comment :COMMENTAIRE_UNE_LIGNE | COMMENTAIRE_PLUS_LIGNE;
 
